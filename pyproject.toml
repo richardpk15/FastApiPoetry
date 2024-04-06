@@ -1,0 +1,22 @@
+[tool.poetry]
+package-mode = false
+name = "pythonprojectpoetry"
+version = "1.0.0"
+description = ""
+authors = ["richardpk15 <138160715+richardpk15@users.noreply.github.com>"]
+readme = "README.md"
+
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "0.110.1"
+pydantic = "2.6.4"
+pytest = "8.1.1"
+uvicorn = "0.29.0"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
